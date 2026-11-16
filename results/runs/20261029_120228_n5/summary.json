@@ -1,0 +1,44 @@
+{
+  "run_id": "20261029_120228",
+  "timestamp": "2026-10-29T12:02:28.316313",
+  "num_images": 5,
+  "models": {
+    "caption_model": "Salesforce/blip-image-captioning-base",
+    "translation_model": "Helsinki-NLP/opus-mt-en-es"
+  },
+  "system": {
+    "os": "Windows-11-10.0.26200-SP0",
+    "python_version": "3.14.3",
+    "cpu": "AMD64 Family 25 Model 117 Stepping 2, AuthenticAMD",
+    "torch_version": "2.11.0+cu128",
+    "transformers_version": "5.20.1",
+    "cuda_available": true,
+    "cuda_version": "12.8",
+    "gpu": {
+      "name": "NVIDIA GeForce RTX 5070",
+      "vram_gb": 11.91
+    }
+  },
+  "timings": {
+    "load_dataset_seconds": 0.09124310011975467,
+    "blip_total_seconds": 34.119754400104284,
+    "translation_total_seconds": 23.443980100098997,
+    "cider_seconds": 0.4788593000266701
+  },
+  "blip": {
+    "num_images": 5,
+    "inference_seconds": 9.629406200023368,
+    "seconds_per_image": 1.9258812400046736,
+    "peak_vram_gb": 0.8994059562683105
+  },
+  "translation": {
+    "num_images": 5,
+    "translation_seconds": 8.562588599976152,
+    "seconds_per_image": 1.7125177199952304,
+    "peak_vram_gb": 0.3070030212402344
+  },
+  "metrics": {
+    "cider_mean": 0.45266542492373374
+  },
+  "git_commit": "de012c61716173f8685d2ce10fccaf31854fc99b"
+}
